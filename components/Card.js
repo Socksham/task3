@@ -35,7 +35,7 @@ const Card = ({ type }) => {
   const [rotation, setRotation] = useState({ x: 0, y: 0, z: 0 });
 
   return (
-    <div className="min-h-screen h-screen relative">
+    <div className="w-full h-full">
       <Canvas
         camera={{
           position: [-6, 7, 7],
