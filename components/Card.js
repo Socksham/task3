@@ -30,7 +30,7 @@ const Model = ({ card_glb, initialRotation, setRotation }) => {
 };
 
 const Card = ({ type }) => {
-  const card_glb = type === 'BLACK' ? '/black_card.glb' : '/black_card.glb';
+  const card_glb = type === 'BLACK' ? '/black_card.glb' : '/white_card.glb';
   const initialRotation = [0, 0, 0]; // Initial rotation in radians [x, y, z]
   const [rotation, setRotation] = useState({ x: 0, y: 0, z: 0 });
 
